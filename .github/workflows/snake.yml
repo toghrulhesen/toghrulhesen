@@ -1,4 +1,6 @@
 # GitHub Action: Generate Snake Animation (fixed version)
+permissions:
+  contents: write
 
 name: Generate Snake
 
