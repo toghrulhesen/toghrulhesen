@@ -22,8 +22,8 @@ jobs:
           github_user_name: toghrulhesen  # <-- öz GitHub istifadəçi adın
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-black.svg?palette=github-black
-            dist/github-contribution-grid-snake.gif?color_snake=#3C79F5
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.gif?color_snake=#00FF00&color_back=#000000
 
       - name: Push generated snake files to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
